@@ -1,8 +1,55 @@
-<html>
-  <head>
-    <script src='/dist/main.js' defer></script>
-  </head>
-  <body>
-    <div id='root'></div>
-  </body>
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src='/dist/main.js' defer> </script>
+    <link rel="stylesheet" src="style.css" />
+    <style>
+        body {
+            font-family: fantasy;
+            font-size: 20px;
+            font-weight: bold;
+            background-color: pink;
+            display: flex;
+            justify-content: space-around;
+        }
+
+        nav,
+        h2 {
+            display: flex;
+            justify-content: space-around;
+        }
+
+        h4 {
+            display: flex;
+            justify-content: space-around;
+            padding: 8px, 16px;
+        }
+
+        #CreateButton {
+            font-size: 15px;
+            height: 40px;
+            width: 150px;
+            text-align: center;
+        }
+
+        #xButton {
+            font-size: 15px;
+            position: absolute;
+            right: 45%;
+        }
+
+        ul {
+            list-style-type: none;
+        }
+    </style>
+</head>
+
+<body>
+    <div id="root"> </div>
+</body>
+
 </html>
